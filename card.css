@@ -1,0 +1,107 @@
+@import"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:arial;
+}
+
+
+.card{
+    margin-top:50px;
+    margin-left: 300px;
+    align:center;
+    box-sizing:border-box;
+    width:30%;
+    height:80%;
+    border:1px solid black ;
+    box-shadow: 2px 2px 10px black;
+}
+
+.img{
+     width:100px;
+     
+}
+img.rounded-corners{
+    border-radius: 50%;
+     margin-left:80px;
+
+    margin-top:10px;
+    border:3px solid grey;
+    
+}
+.title{
+    text-align: center;
+    
+}
+
+.des{
+    text-align: center;
+    font-size:12px;
+    margin-left:10px;
+    margin-right:10px;
+    
+    
+}
+
+
+
+
+.mail > p{
+   text-align: center;
+   background-color:00A79F;
+   font-size:12px;
+   color:white;
+   display: block;
+   border-radius:5px;
+   margin-left:10px;
+   margin-right:10px;
+   box size:50px;
+}
+ul{
+    display:flex;
+    margin-left:60px;
+}
+.icon-bar{
+    color:white;
+    width:400px;
+    
+    font-family:"robot-thin";
+    align:center;
+    margin-left:70px;
+    margin-right:40px;
+    
+    
+    
+    
+}
+.icon-bar>a{
+
+    margin:0px 5px;
+    display:inline-flex;
+    text-decoration:none;
+    color:white;
+    background:black;
+    padding:3px;
+    font-size:15pt;
+    justify-content:center;
+     transition: .6s;
+     margin-left:0px;
+     margin-right:0px;
+    
+
+    
+}
+.icon-bar>a>i{
+
+    transition:.8s;
+}
+.icon-bar>a:hover{
+    transform:scale(1,1);
+    background:white;
+    border:1px solid black;
+    color:black;
+}
+.icon-bar>a:hover>i{
+    transform: rotate(15dge) scale(1,2);
+}
